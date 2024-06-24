@@ -1,0 +1,34 @@
+------------ Options -------------
+align_data: False
+aspect_ratio: 1.0
+batchSize: 1
+checkpoints_dir: ./checkpoints
+dataroot: None
+display_id: 0
+display_winsize: 256
+fineSize: 256
+flip: False
+gpu_ids: [0, 1]
+how_many: 200
+identity: 0.0
+input_nc: 1
+isTrain: False
+loadSize: 286
+model: vigan
+nThreads: 2
+n_layers_D: 3
+name: experiment_name
+ndf: 64
+ngf: 64
+no_html: False
+norm: batch
+ntest: inf
+output_nc: 1
+phase: test
+results_dir: ./results/
+serial_batches: False
+which_direction: AtoB
+which_epoch: latest
+which_model_netD: basic
+which_model_netG: resnet_9blocks
+-------------- End ----------------
